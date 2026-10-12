@@ -1,0 +1,57 @@
+# Операционная система
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# Редакторы и IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# Секреты и локальные настройки
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Node.js
+node_modules/
+dist/
+.next/
+out/
+*.tsbuildinfo
+
+# Java, .NET и прочие сборки
+target/
+build/
+bin/
+obj/
+*.class
+*.jar
+*.war
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+.cache/
