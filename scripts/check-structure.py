@@ -68,11 +68,13 @@ def check_required() -> list[str]:
 def pending_works() -> list[str]:
     lines: list[str] = []
     for number in ASSET_WORKS + SOURCE_WORKS:
-        folder = material_dir(number)
-        files = deliverables(folder)
+        folders = [material_dir(number)]
+        if number in SOURCE_WORKS:
+            folders.append(work_dir(number) / "assets")
+        files = [path for folder in folders for path in deliverables(folder)]
         if files:
             continue
-        label = "assets" if number in ASSET_WORKS else "src"
+        label = "assets" if number in ASSET_WORKS else "src или assets"
         lines.append(f"practical-work-{number:02d}: в {label}/ ещё нет материалов")
     return lines
 

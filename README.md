@@ -23,6 +23,8 @@
 - [Матрица RACI](docs/raci-matrix.md)
 - [Самостоятельная работа 1](practical-works/practical-work-01/report.md)
 - [Самостоятельная работа 2](practical-works/practical-work-02/report.md)
+- [Самостоятельная работа 3](practical-works/practical-work-03/report.md)
+- [Самостоятельная работа 4](practical-works/practical-work-04/report.md)
 
 ## Структура
 
@@ -42,7 +44,8 @@ team-incredibles-project/
 │   │   └── assets/
 │   ├── practical-work-03/ … practical-work-08/
 │   │   ├── report.md
-│   │   └── src/
+│   │   ├── src/
+│   │   └── assets/
 ├── scripts/
 │   ├── check-structure.py
 │   ├── check-structure.sh
@@ -50,7 +53,7 @@ team-incredibles-project/
 └── .gitignore
 ```
 
-Работы 01 и 02 хранят материалы в `assets/`. Работы 03–08 хранят код в `src/`.
+Работы 01–02 хранят материалы в `assets/`. В работах 03–08 исходные материалы и код прототипа размещаются в `src/`, а изображения (схемы, портреты, доски идей) — в `assets/`.
 
 Проверка структуры:
 
