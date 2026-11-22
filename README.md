@@ -25,6 +25,7 @@
 - [Самостоятельная работа 2](practical-works/practical-work-02/report.md)
 - [Самостоятельная работа 3](practical-works/practical-work-03/report.md)
 - [Самостоятельная работа 4](practical-works/practical-work-04/report.md)
+- [Самостоятельная работа 5](practical-works/practical-work-05/report.md)
 
 ## Структура
 
